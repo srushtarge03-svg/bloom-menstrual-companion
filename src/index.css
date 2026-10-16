@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bloom-bg: #FAF7F5;
+    --bloom-surface: #FFFFFF;
+    --bloom-card: #FFFFFF;
+    --bloom-pressed: #F3EDF7;
+    --bloom-ink: #251A30;
+    --bloom-mute: #6F5E7B;
+    --bloom-line: #EBE2F0;
+    --bloom-primary: #8A388F;
+    --bloom-accent: #8A388F;
+    --bloom-rose: #FF5E88;
+    --bloom-sage: #28B984;
+    --bloom-teal: #14B8A6;
+    --bloom-terracotta: #FF7854;
+    --bloom-gold: #F5A623;
+
+    /* Section Soft Radiant Gradients */
+    --bloom-grad-before-from: #FF6F61;
+    --bloom-grad-before-to: #FFA770;
+    --bloom-grad-first-from: #0D9488;
+    --bloom-grad-first-to: #2DD4BF;
+    --bloom-grad-cycle-from: #7C3AED;
+    --bloom-grad-cycle-to: #C026D3;
+
+    /* Radii */
+    --bloom-radius-sm: 16px;
+    --bloom-radius: 24px;
+    --bloom-radius-lg: 28px;
+
+    /* Real Tactile 3D Clay Shadows (Convex cushion effect) */
+    --bloom-clay-shadow: 12px 18px 30px rgba(125, 75, 145, 0.12), -8px -8px 22px rgba(255, 255, 255, 0.98), inset 2.5px 2.5px 5px rgba(255, 255, 255, 0.95), inset -3px -3px 8px rgba(135, 85, 155, 0.07);
+    --bloom-clay-hover: 16px 24px 38px rgba(125, 75, 145, 0.18), -10px -10px 26px rgba(255, 255, 255, 1), inset 3px 3px 6px rgba(255, 255, 255, 0.95), inset -3px -3px 8px rgba(135, 85, 155, 0.08);
+    --bloom-clay-btn: 0 10px 24px rgba(138, 56, 143, 0.35), 0 3px 6px rgba(0, 0, 0, 0.08), inset 2px 2px 4px rgba(255, 255, 255, 0.5), inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+    --bloom-clay-pressed: inset 4px 4px 8px rgba(110, 60, 130, 0.14), inset -4px -4px 8px rgba(255, 255, 255, 0.95), 0 1px 2px rgba(255, 255, 255, 0.8);
+  }
+
+  .dark {
+    --bloom-bg: #140E1B;
+    --bloom-surface: #21172B;
+    --bloom-card: #21172B;
+    --bloom-pressed: #181022;
+    --bloom-ink: #F7F1FA;
+    --bloom-mute: #A997BA;
+    --bloom-line: #332442;
+    --bloom-primary: #D89FE3;
+    --bloom-accent: #D89FE3;
+    --bloom-rose: #FF789F;
+    --bloom-sage: #45D19E;
+    --bloom-teal: #2DD4BF;
+    --bloom-terracotta: #FF9070;
+    --bloom-gold: #FBBF24;
+
+    /* Clay Shadows Dark */
+    --bloom-clay-shadow: 12px 18px 30px rgba(0, 0, 0, 0.55), -6px -6px 18px rgba(45, 32, 58, 0.4), inset 2px 2px 4px rgba(255, 255, 255, 0.08), inset -3px -3px 8px rgba(0, 0, 0, 0.5);
+    --bloom-clay-hover: 16px 24px 38px rgba(0, 0, 0, 0.65), -8px -8px 22px rgba(45, 32, 58, 0.5), inset 2.5px 2.5px 5px rgba(255, 255, 255, 0.12), inset -3px -3px 8px rgba(0, 0, 0, 0.55);
+    --bloom-clay-btn: 0 10px 24px rgba(216, 159, 227, 0.35), 0 3px 6px rgba(0, 0, 0, 0.3), inset 2px 2px 4px rgba(255, 255, 255, 0.4), inset -2px -2px 5px rgba(0, 0, 0, 0.3);
+    --bloom-clay-pressed: inset 4px 4px 8px rgba(0, 0, 0, 0.6), inset -4px -4px 8px rgba(45, 32, 58, 0.45), 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  body {
+    @apply antialiased select-none;
+    font-family: 'Plus Jakarta Sans', 'DM Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+    background-color: var(--bloom-bg);
+    color: var(--bloom-ink);
+  }
+}
+
+/* Claymorphic Utility Classes */
+.clay-card {
+  box-shadow: var(--bloom-clay-shadow);
+  border-radius: var(--bloom-radius);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.clay-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--bloom-clay-hover);
+}
+
+.clay-btn {
+  box-shadow: var(--bloom-clay-btn);
+  border-radius: var(--bloom-radius);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.clay-btn:hover {
+  transform: translateY(-2px);
+}
+
+.clay-btn:active {
+  box-shadow: var(--bloom-clay-pressed);
+  transform: scale(0.97) translateY(2px);
+}
+
+.clay-inset {
+  box-shadow: var(--bloom-clay-pressed);
+  border-radius: var(--bloom-radius-sm);
+}
+
+/* Primary blooming solid button with subtle highlight */
+.btn-primary {
+  background: linear-gradient(135deg, #9E40A4 0%, #762D7E 100%);
+  color: #FFFFFF;
+  box-shadow: var(--bloom-clay-btn);
+  border-radius: var(--bloom-radius-lg);
+  font-weight: 800;
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(138, 56, 143, 0.42), inset 2px 2px 4px rgba(255, 255, 255, 0.6), inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:active {
+  transform: scale(0.97) translateY(2px);
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.32);
+}
+
+.dark .btn-primary {
+  background: linear-gradient(135deg, #E0A6EB 0%, #B86ECC 100%);
+  color: #140E1B;
+  box-shadow: 0 8px 20px rgba(216, 159, 227, 0.35), inset 1.5px 1.5px 3px rgba(255, 255, 255, 0.5);
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "app": {
+    "name": "BLOOM",
+    "tagline": "A learning companion that grows with a girl.",
+    "subtitle": "Your learning companion for understanding your body and cycle.",
+    "footerNote": "Designed by girls, for girls.",
+    "medicalDisclaimer": "Educational content only. This is not medical advice. Always talk to a trusted adult or doctor if you feel unwell."
+  },
+  "nav": {
+    "home": "Home",
+    "before": "Before",
+    "firstPeriod": "First Period",
+    "cycle": "Track + AI",
+    "privacy": "Privacy"
+  },
+  "home": {
+    "welcome": "Welcome, friend",
+    "progressTitle": "Your learning journey",
+    "lessonsCompleted": "{{completed}} of {{total}} lessons completed",
+    "tile1Title": "Before My First Period",
+    "tile1Desc": "Understand puberty, hormones and periods before they begin.",
+    "tile1Tags": ["Animated videos", "Quizzes", "3 languages"],
+    "tile2Title": "My First Period",
+    "tile2Desc": "Step by step help for when your first period arrives.",
+    "tile2Tags": ["Animated videos", "Quizzes", "Hygiene guide"],
+    "tile3Title": "Understand My Cycle",
+    "tile3Desc": "Log your cycle, see your phase and ask Bloom AI.",
+    "tile3Tags": ["Cycle tracker", "AI insights", "Phase dial"]
+  },
+  "learn": {
+    "title": "Before My First Period",
+    "subtitle": "Learn about your changing body and growing up with confidence.",
+    "level": "Level",
+    "watchVideo": "Watch video",
+    "completed": "Completed ✓",
+    "comingSoon": "Coming soon",
+    "levels": {
+      "l1": {
+        "title": "My Changing Body",
+        "description": "Physical changes during growing up and basic body awareness.",
+        "scenes": [
+          {
+            "title": "Your body is growing",
+            "text": "Between 8 and 14, bodies start to change. You grow taller and your shape changes. Everyone starts at their own time, and that is normal."
+          },
+          {
+            "title": "Take care of yourself",
+            "text": "You may sweat more or get pimples. Wash daily, wear clean clothes and drink water to feel fresh."
+          },
+          {
+            "title": "Questions are always okay",
+            "text": "If something worries you, ask a trusted adult like mum, an aunt, a teacher or a doctor."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "When do bodies usually start to change?",
+            "options": ["At exactly age 10 for everyone", "Between about 8 and 14", "Only after 18"],
+            "answerIndex": 1,
+            "explanation": "Everyone has their own timing. There is no single age."
+          },
+          {
+            "question": "Your friend grows faster than you. What does it mean?",
+            "options": ["Something is wrong with you", "Nothing, everyone has their own pace", "You need medicine"],
+            "answerIndex": 1,
+            "explanation": "There is no right speed. Every body has its own clock."
+          },
+          {
+            "question": "Who can you talk to when you feel worried?",
+            "options": ["A trusted adult or doctor", "No one, keep it secret", "Strangers online"],
+            "answerIndex": 0,
+            "explanation": "Trusted adults can help, and no question is silly."
+          }
+        ]
+      },
+      "l2": {
+        "title": "Understanding Puberty",
+        "description": "What puberty is and why your body and feelings evolve.",
+        "scenes": [
+          {
+            "title": "The journey called puberty",
+            "text": "Puberty is nature's bridge between childhood and adulthood. It is a healthy journey that prepares your body for the future."
+          },
+          {
+            "title": "Feelings and moods can swing",
+            "text": "Along with body growth, your emotions might feel bigger or changeable. One day you feel excited, the next a bit sensitive. That is completely okay."
+          },
+          {
+            "title": "Be kind to your body",
+            "text": "Eating balanced meals, getting 8 to 9 hours of sleep, and talking through your feelings helps you bloom happily."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "What is puberty?",
+            "options": ["A sickness to cure", "A normal bridge from childhood to growing up", "Something only a few people get"],
+            "answerIndex": 1,
+            "explanation": "Puberty is a natural, healthy stage of growing up that everyone goes through."
+          },
+          {
+            "question": "If your mood changes suddenly during puberty, what is true?",
+            "options": ["It is normal as hormones change", "You did something wrong", "You must hide your feelings"],
+            "answerIndex": 0,
+            "explanation": "Big emotions and mood swings are very normal during puberty."
+          }
+        ]
+      },
+      "l3": {
+        "title": "Hormones: Body Messengers",
+        "description": "Basic explanation of hormones and their role in growing up.",
+        "scenes": [
+          {
+            "title": "Chemical messengers at work",
+            "text": "Hormones are tiny chemical messengers made inside your body. The main ones for girls are estrogen and progesterone."
+          },
+          {
+            "title": "What do these messengers do?",
+            "text": "They tell your bones to grow taller, your hips to widen, and your reproductive system to slowly wake up."
+          },
+          {
+            "title": "A natural orchestra",
+            "text": "Like instruments in an orchestra, hormones work together in gentle waves each month once your cycle starts."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "What are hormones?",
+            "options": ["Chemical messengers in your body", "Germs from outside", "Type of vitamins"],
+            "answerIndex": 0,
+            "explanation": "Hormones are natural chemical signals that guide growth and cycles."
+          },
+          {
+            "question": "Which hormone is very important for a girl's growth?",
+            "options": ["Estrogen", "Caffeine", "Chlorophyll"],
+            "answerIndex": 0,
+            "explanation": "Estrogen is one of the key hormones guiding a girl's growth."
+          }
+        ]
+      },
+      "l4": {
+        "title": "Understanding Menstruation",
+        "description": "What a period is, why periods happen, and basic cycle science.",
+        "scenes": [
+          {
+            "title": "The monthly cushion",
+            "text": "Inside your lower tummy is an organ called the uterus. Each month it builds a soft, cushiony lining made of tiny blood vessels."
+          },
+          {
+            "title": "Releasing the cushion",
+            "text": "If the body does not need the cushion, the lining gently breaks down and leaves your body through the vagina. That is your period."
+          },
+          {
+            "title": "Clean, healthy reset",
+            "text": "Menstrual fluid is not dirty blood or poison. It is clean tissue and blood that shows your body is healthy and working well."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "What is a period?",
+            "options": ["A cut or injury", "The body gently releasing the uterus lining", "An allergic reaction"],
+            "answerIndex": 1,
+            "explanation": "A period is simply the monthly release of the soft uterine lining."
+          },
+          {
+            "question": "Is period blood dirty?",
+            "options": ["Yes, it is toxic waste", "No, it is clean blood and tissue from the uterus lining", "Only on hot days"],
+            "answerIndex": 1,
+            "explanation": "Period blood is completely natural and clean, not poisonous or dirty."
+          }
+        ]
+      }
+    }
+  },
+  "prepare": {
+    "title": "My First Period",
+    "subtitle": "Step by step help for when your period arrives.",
+    "needsReviewBanner": "Topics 3 to 7 are newly expanded and marked: Needs Medical Review.",
+    "topics": {
+      "p1": {
+        "title": "What to do when it starts",
+        "description": "Stay calm, use a pad, and tell a trusted adult.",
+        "medicalReview": false,
+        "scenes": [
+          {
+            "title": "Do not panic",
+            "text": "Your first period is a normal sign that your body is growing. A little blood on your underwear is nothing to be scared of."
+          },
+          {
+            "title": "Use a pad",
+            "text": "Take a clean pad, remove the paper, stick it on your underwear and wash your hands. If you have no pad, fold clean cloth or tissue for now."
+          },
+          {
+            "title": "Tell a trusted adult",
+            "text": "Tell mum, an aunt, a teacher or a school nurse. They can give you pads and help with cramps."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Your first period starts. What is a good first step?",
+            "options": ["Stay calm and use a clean pad", "Hide and tell no one", "Feel ashamed"],
+            "answerIndex": 0,
+            "explanation": "It is normal and nothing to be ashamed of."
+          },
+          {
+            "question": "Who can you talk to when you feel worried?",
+            "options": ["A trusted adult or doctor", "No one, keep it secret", "Strangers online"],
+            "answerIndex": 0,
+            "explanation": "A trusted adult or school nurse will warmly support you."
+          }
+        ]
+      },
+      "p2": {
+        "title": "What a sanitary pad is",
+        "description": "Understanding pad layers, wings, and absorbency.",
+        "medicalReview": false,
+        "scenes": [
+          {
+            "title": "Place it right",
+            "text": "Stick the pad in the middle of your underwear, with the wings folded around the sides."
+          },
+          {
+            "title": "Change on time",
+            "text": "Change your pad every 4 to 6 hours, or sooner if it feels full. This keeps you fresh and comfortable."
+          },
+          {
+            "title": "Dispose with care",
+            "text": "Wrap the used pad in its paper or a bag and put it in the dustbin. Never flush it down the toilet. Then wash your hands."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "How often should you change a pad?",
+            "options": ["Every 4 to 6 hours", "Once a day", "Once a week"],
+            "answerIndex": 0,
+            "explanation": "Regular changing keeps you fresh and comfortable."
+          },
+          {
+            "question": "Where should a used pad go?",
+            "options": ["In the dustbin, wrapped", "Down the toilet", "On the floor"],
+            "answerIndex": 0,
+            "explanation": "Wrapped in the dustbin is the safe and hygienic way."
+          }
+        ]
+      },
+      "p3": {
+        "title": "How to place a pad correctly",
+        "description": "Step-by-step visual guide on sticking and centering a pad.",
+        "medicalReview": true,
+        "scenes": [
+          {
+            "title": "Peel the adhesive backing",
+            "text": "Unwrap the pad and gently peel off the long paper strip on the back to reveal the sticky adhesive."
+          },
+          {
+            "title": "Center on your underwear",
+            "text": "Press the sticky side firmly down in the center of the crotch area of your underwear, where fluid naturally lands."
+          },
+          {
+            "title": "Wrap the wings around",
+            "text": "Peel the paper from the side wings and fold them smoothly underneath the sides of your underwear so it stays locked in place."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Which side of the pad touches your skin?",
+            "options": ["The soft absorbent top side", "The sticky tape side", "Either side is fine"],
+            "answerIndex": 0,
+            "explanation": "The soft cushion goes against your body, while the sticky side sticks to your underwear."
+          },
+          {
+            "question": "Why do sanitary pads have side wings?",
+            "options": ["To make the pad fly", "To wrap underneath underwear and prevent side leaks", "For decoration"],
+            "answerIndex": 1,
+            "explanation": "Wings wrap around the edges of underwear to hold the pad secure and stop side leaks."
+          }
+        ]
+      },
+      "p4": {
+        "title": "When and how to change a pad",
+        "description": "Knowing when to switch pads and how to stay comfortable all day.",
+        "medicalReview": true,
+        "scenes": [
+          {
+            "title": "Listen to your body",
+            "text": "Even on lighter days, change your pad every 4 to 6 hours. If it feels damp or heavy, change it sooner."
+          },
+          {
+            "title": "Pack an emergency pouch",
+            "text": "Keep two clean pads and a small clean zip bag in your school bag. That way you are always prepared anywhere."
+          },
+          {
+            "title": "Gentle wipe front to back",
+            "text": "When changing, gently wipe your intimate area from front to back with toilet paper or warm water to prevent bacteria."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Why should you wipe from front to back?",
+            "options": ["To prevent bacteria from the back entering the front", "It does not matter which direction", "Only because it is faster"],
+            "answerIndex": 0,
+            "explanation": "Wiping front to back prevents bacteria from causing urinary or vaginal infections."
+          },
+          {
+            "question": "Should you keep a spare pad in your school bag?",
+            "options": ["Yes, an emergency pouch keeps you stress-free", "No, never bring pads outside", "Only on weekends"],
+            "answerIndex": 0,
+            "explanation": "A small pouch with a couple of pads in your bag gives peace of mind."
+          }
+        ]
+      },
+      "p5": {
+        "title": "Disposing used pads properly",
+        "description": "Disposal etiquette, protecting plumbing, and hygiene.",
+        "medicalReview": true,
+        "scenes": [
+          {
+            "title": "Roll it up neatly",
+            "text": "Roll the used pad tightly from one end to the other, keeping the soiled surface tucked safely on the inside."
+          },
+          {
+            "title": "Wrap in paper or wrapper",
+            "text": "Wrap the rolled pad inside the wrapper of your new pad or a piece of newspaper or scrap paper."
+          },
+          {
+            "title": "Bin it, never flush it",
+            "text": "Drop the wrapped parcel into a closed dustbin. Never flush pads down the toilet because they will clog the pipes!"
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Can you flush a sanitary pad in the toilet?",
+            "options": ["Never, it will block plumbing pipes", "Yes, all pads dissolve", "Only if it is small"],
+            "answerIndex": 0,
+            "explanation": "Pads absorb water and expand, clogging toilets and sewage systems. Always throw in the dustbin."
+          },
+          {
+            "question": "What is the best way to discard a used pad?",
+            "options": ["Roll it, wrap it in paper, and place in a dustbin", "Throw it open in the room", "Bury it under a mattress"],
+            "answerIndex": 0,
+            "explanation": "Neatly rolled and wrapped in the dustbin keeps surroundings clean and odor-free."
+          }
+        ]
+      },
+      "p6": {
+        "title": "Staying fresh and clean",
+        "description": "Daily hygiene, clean underwear, and gentle bathing tips.",
+        "medicalReview": true,
+        "scenes": [
+          {
+            "title": "Bathing during your period",
+            "text": "Taking a daily warm bath or shower is safe and soothing. Warm water relaxes tight muscles and keeps you fresh."
+          },
+          {
+            "title": "Plain water is best",
+            "text": "Wash your private area with plain warm water. Avoid strong scented soaps or deodorants which can cause irritation."
+          },
+          {
+            "title": "Breathable cotton underwear",
+            "text": "Wear clean, breathable cotton underwear every day. Change into fresh clothes if you feel damp or sweaty."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Is it safe to take a bath during your period?",
+            "options": ["Yes, a warm bath is soothing and very hygienic", "No, bathing is dangerous during periods", "Only cold water is allowed"],
+            "answerIndex": 0,
+            "explanation": "Bathing during your period is healthy, safe, and helps soothe muscle cramps."
+          },
+          {
+            "question": "What should you use to clean your intimate area?",
+            "options": ["Plain gentle water", "Strong scented perfumes and soaps", "Bleach"],
+            "answerIndex": 0,
+            "explanation": "Plain water is the safest and gentlest for sensitive skin."
+          }
+        ]
+      },
+      "p7": {
+        "title": "Common symptoms during periods",
+        "description": "Understanding cramps, moods, headaches, and soothing remedies.",
+        "medicalReview": true,
+        "scenes": [
+          {
+            "title": "Tummy cramps and backaches",
+            "text": "Mild cramps in your lower belly or back happen because your uterus gently squeezes to release its lining."
+          },
+          {
+            "title": "Natural soothing comfort",
+            "text": "A warm water bottle on your tummy, curling up with a book, sipping warm water, and light resting work wonders."
+          },
+          {
+            "title": "When to ask a doctor",
+            "text": "If pain is so severe you cannot walk or attend school, or if bleeding lasts longer than 7 days, tell an adult and consult a doctor."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "What causes mild menstrual cramps?",
+            "options": ["The uterus gently contracting to release its lining", "Eating too many vegetables", "Walking too fast"],
+            "answerIndex": 0,
+            "explanation": "Mild cramps occur when the uterine muscles squeeze to shed the lining."
+          },
+          {
+            "question": "What is a gentle home comfort for cramps?",
+            "options": ["A warm water bottle on your lower belly and resting", "Running a marathon", "Skipping meals"],
+            "answerIndex": 0,
+            "explanation": "Gentle heat increases blood flow and relaxes uterine muscles."
+          }
+        ]
+      }
+    }
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "replay": "Watch again",
+    "startQuiz": "Start quiz",
+    "nextScene": "Next scene",
+    "ttsNotice": "Playing voice narration via device speech synthesis (female Indian voice).",
+    "noVoiceNotice": "Speech synthesis unavailable on this device. Captions displayed.",
+    "tapToPlaySound": "Tap to play narration sound",
+    "speaking": "Speaking"
+  },
+  "quiz": {
+    "questionOf": "Question {{current}} of {{total}}",
+    "correct": "Yes! Well done!",
+    "incorrect": "Not quite. Think about it:",
+    "nextQuestion": "Next question",
+    "quizDone": "Super job! You finished the quiz!",
+    "yourScore": "Your score",
+    "backToLesson": "Back to lessons",
+    "retry": "Try again"
+  },
+  "cycle": {
+    "title": "Understand My Cycle",
+    "subtitle": "Track your body's rhythm, view your phase, and get gentle insights.",
+    "dayCount": "Day {{day}} of about {{total}}",
+    "nextPeriodTitle": "Next period expected around",
+    "predictedRange": "Predicted between {{start}} and {{end}}. Early cycles are often irregular in the first 1 to 2 years.",
+    "insightsTitle": "Gentle Insights For You",
+    "phases": {
+      "p0": {
+        "name": "Period days",
+        "description": "Your body is clearing its lining. This is a monthly reset. Rest well, hydrate, and change your pad every 4 to 6 hours."
+      },
+      "p1": {
+        "name": "Fresh start (Follicular)",
+        "description": "Your period is over and you may feel lighter, energetic and curious. A great time to learn new hobbies."
+      },
+      "p2": {
+        "name": "Peak energy (Ovulation)",
+        "description": "Mid-cycle, your body releases an egg. You may feel confident and sociable. Clear, stretchy discharge is completely normal."
+      },
+      "p3": {
+        "name": "Slow down (Luteal)",
+        "description": "Your body is preparing for the next period. Feeling a bit tired or moody is common. Sleep well and keep a pad in your bag."
+      }
+    },
+    "insights": {
+      "regular": "Your cycles are similar in length, so a healthy pattern is forming.",
+      "varying": "Your cycle length changes a little. That is very common and natural in the first 1 to 2 years.",
+      "cramps": "You logged cramps. A warm water bag, soothing herbal tea, and rest can help you feel better.",
+      "redFlag": "Very strong pain or bleeding lasting more than 7 days? Please talk to a trusted adult or doctor. Never suffer in silence.",
+      "longCycle": "It has been over 45 days since your last period. Early cycles can pause or skip months, but let a trusted adult or doctor know if you are concerned."
+    },
+    "logButton": "Log a period",
+    "logModalTitle": "Log your cycle details",
+    "startDate": "Start date",
+    "endDate": "End date (optional)",
+    "flowLabel": "Flow",
+    "crampsLabel": "Cramps",
+    "moodLabel": "Mood",
+    "symptomsLabel": "Other symptoms",
+    "flows": ["Light", "Medium", "Heavy"],
+    "cramps": ["None", "Mild", "Medium", "Severe"],
+    "moods": ["Happy", "Okay", "Tired", "Moody", "Sad"],
+    "symptoms": ["Headache", "Backache", "Pimples", "Bloating", "Fatigue", "Cravings"],
+    "save": "Save Log",
+    "cancel": "Cancel",
+    "guestNotice": "Running in Guest Mode: your logs are kept strictly on this device only."
+  },
+  "askAi": {
+    "title": "Ask Bloom AI",
+    "subtitle": "Empathetic, age-appropriate answers about puberty and growing up.",
+    "inputPlaceholder": "Ask a question about your body, periods or feelings...",
+    "sendButton": "Ask",
+    "thinking": "Bloom is thinking...",
+    "disclaimer": "Bloom AI gives gentle educational advice, not medical diagnosis. In case of emergency or distress, contact a trusted adult or call Childline India 1098.",
+    "sampleQuestions": [
+      "Why am I tired before my period?",
+      "Is my cycle normal?",
+      "What helps with cramps?",
+      "What should I do if I leak in school?"
+    ],
+    "sampleAnswers": [
+      "Hormones change in the days before a period, which can make you feel tired or moody. Sleep, water and gentle movement help. This is common and usually passes once your period starts.",
+      "In the first 1 to 2 years, cycles can be anywhere from about 21 to 45 days and can change each month. If you skip many months or bleed very heavily, tell a trusted adult or a doctor.",
+      "A warm water bag on your tummy, rest, warm water to drink and gentle stretching can help. If the pain is very strong or stops you going to school, please see a doctor.",
+      "Do not worry—leaks happen to almost every girl! Calmly tie a jacket or sweater around your waist, visit the school nurse or teacher, and ask for a fresh pad. You have nothing to feel embarrassed about."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy & Consent",
+    "subtitle": "Built with Privacy by Design (India DPDP Act 2023)",
+    "consentHeading": "Parental & Guardian Consent (Under 18)",
+    "consentText": "BLOOM is designed for girls aged 10-15. In accordance with the Digital Personal Data Protection (DPDP) Act 2023, learning and tracking data requires parental awareness. We collect zero identifiable details (no phone numbers, no tracking, no ads, no data selling).",
+    "consentConfirmed": "I confirm that my parent or trusted guardian is aware I am using BLOOM.",
+    "deleteDataHeading": "Delete All My Data",
+    "deleteDataDesc": "You have full ownership of your data. Tapping below permanently erases all logged cycle records and lesson progress from both your local device and Supabase cloud.",
+    "deleteButton": "Permanently Delete My Data",
+    "deleteConfirm": "Are you sure? All cycle logs and quiz scores will be permanently deleted.",
+    "dataDeleted": "All personal data has been erased successfully.",
+    "accountMode": "Account Status",
+    "guestMode": "Using as Guest (Local storage only)",
+    "signedIn": "Signed in as {{email}}",
+    "signInPrompt": "Want to sync across devices? Sign in or register below."
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Create Account",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Submit",
+    "continueGuest": "Continue as Guest",
+    "signOut": "Sign Out"
+  }
+}

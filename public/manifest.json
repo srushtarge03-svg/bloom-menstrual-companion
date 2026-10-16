@@ -1,0 +1,18 @@
+{
+  "name": "BLOOM - A Learning Companion That Grows With A Girl",
+  "short_name": "BLOOM",
+  "description": "A gentle, friendly learning companion teaching girls aged 10-15 about puberty, first periods and menstrual cycles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EEE7FB",
+  "theme_color": "#7B5CFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
